@@ -1,0 +1,171 @@
+/*COMPONENTES*/
+
+.nav-link {
+  color: var(--blue-font-color) !important;
+}
+
+.nav-item .main-button {
+  color: var(--blue-font-color) !important;
+}
+
+header {
+  background: radial-gradient(50% 50% at 50% 50%, #EDF7FF 0%, #CFEAFF 100%);
+}
+
+@media screen and (max-width:576px) and (min-width:0px){
+  .hero-banner__right-section img {
+    margin-top: 30px;
+    width: 240px;
+  }
+  .hero-banner {
+    position: static;
+  }
+
+  header {
+    height: auto;
+  }
+}
+
+@media screen and (max-width:992px) and (min-width:577px){
+  .hero-banner__right-section img {
+    margin-top: 60px;
+    width: 340px;
+    
+  }
+
+  .hero-banner {
+    position: static;
+  }
+
+  header {
+    height: auto;
+  }
+
+  .quienes-somos__explanation p {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .education-features__features {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (max-width:1024px) and (min-width:992px){
+  .hero-banner__right-section img {
+    width: 400px;
+  }
+  
+  header {
+    height: 740px;
+    position: relative;
+  }
+  
+  .hero-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    right: 0;   
+  }
+
+  .hero-banner__left-section {
+    padding-left: 30px;
+  }
+  
+  .hero-banner__right-section {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:30000px) and (min-width:1025px){
+  .hero-banner__right-section img {
+    width: 440px;
+  }
+
+  header {
+    height: 740px;
+    position: relative;
+  }
+  
+  .hero-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    right: 0;   
+  }
+
+  .hero-banner__left-section {
+    padding-left: 0px;
+  }
+  
+  .hero-banner__right-section {
+    padding-right: 0px;
+  }
+}
+
+.hero-banner__left-section__buttons a, .quienes-somos__buttons a {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.quienes-somos__title-section {
+  height: 100%;
+}
+.quienes-somos__buttons {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.hero-banner__left-section__buttons {
+  text-align: center;
+}
+
+.first-separator, .second-separator {
+  width: 100%;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-separator {
+  background: url('/resources/separador1fondo.webp');
+  background-position: center;
+}
+
+.second-separator {
+  background-image: url("/resources/separador2fondo.webp");
+  background-position: center;
+}
+
+.first-separator__row {
+  height: inherit;
+}
+
+.first-separator__left-section p, .first-separator__middle-section p, .first-separator__right-section p {
+  color: white;
+}
+
+.first-separator__left-section h2, .first-separator__middle-section h2, .first-separator__right-section h2 {
+  color: white;
+}
+
+.card {
+  border: none;
+}
+
+
+.quienes-somos, .education-features, .gallery {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.education-features__features div {
+  padding-top: 30px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.education-features__features div h3 {
+  font-weight: bold;
+}

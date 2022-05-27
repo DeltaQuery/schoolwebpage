@@ -1,0 +1,197 @@
+@import "general.css";
+
+.reviews__element {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px !important;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.social-proof__info {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.testimony__element {
+  min-height: 90px !important;
+}
+
+.social-proof {
+  width: 100%;
+  height: 480px;
+  background-image: url("/resources/socialproofbackground.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.social-proof__title {
+  margin-bottom: 30px;
+}
+
+.social-proof__title h2 {
+  color: white;
+}
+
+.social-proof__photo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+}
+
+.social-card div p {
+  color: white;
+  text-align: center;
+}
+
+.social-proof__name p:first-child {
+  color: var(--yellow-font-color);
+  font-weight: bold;
+}
+
+.social-proof_name p:last-child {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 5;
+}
+
+.internal-container {
+  padding-top: 110px;
+}
+
+.reviews__element div:first-child {
+  text-align: center;
+}
+
+.reviews__element div p {
+  color: white;
+}
+
+.reviews__container, .gallery__container {
+  margin-left: 0;
+  margin-right: 0;
+  margin: auto;
+  position: relative;
+}
+
+.reviews__container {
+  width: 80%;
+}
+
+.gallery__container {
+  width: 80%;
+}
+
+.reviews__anterior,
+.reviews__siguiente,
+.gallery__anterior,
+.gallery__siguiente {
+  position: absolute;
+  display: block;
+  border: none;
+  top: calc(50% - 35px);
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  opacity: 0.5;
+}
+
+.gallery__anterior,
+.gallery__siguiente {
+  top: calc(50% - 20px);
+}
+
+.reviews__anterior:hover,
+.reviews__siguiente:hover,
+.gallery__anterior:hover,
+.gallery__siguiente:hover {
+  opacity: 1;
+}
+
+.reviews__anterior,
+.gallery__anterior {
+  left: -10px;
+}
+
+.reviews__siguiente,
+.gallery__siguiente {
+  right: -10px;
+} 
+
+.gallery__list,
+.reviews__list {
+  overflow: hidden;
+  max-width: 1100px;
+}
+
+.gallery__element img {
+  margin: auto;
+  display: flex;
+}
+
+.gallery__indicators .glider-dot:hover,
+.reviews__indicators .glider-dot:hover {
+  opacity: .5;
+}
+
+.gallery__indicators .glider-dot:active,
+.reviews__indicators .glider-dot:hover {
+  opacity: 1;
+}
+
+.reviews__indicators .glider-dot,
+.gallery__indicators .glider-dot {
+  display: block;
+  background-color: black;
+  opacity: .2;
+}
+
+.gallery__indicators .glider-dot {
+  margin-top: 15px;
+}
+
+.glider-track {
+  margin: auto;
+}
+
+@media (max-width: 500px) {
+
+  .reviews__indicators,
+  .gallery__indicators {
+    opacity: 0;
+  }
+
+  .reviews__anterior,
+.gallery__anterior {
+  margin-left: 10px;
+}
+
+.reviews__siguiente,
+.gallery__siguiente {
+  margin-right: 10px;
+} 
+
+}
+
+@media (max-width: 1200px) {
+
+  .reviews__indicators,
+  .gallery__indicators {
+    opacity: 0;
+  }
+
+  .reviews__anterior,
+.gallery__anterior {
+  left: -40px;
+}
+
+.reviews__siguiente,
+.gallery__siguiente {
+  right: -40px;
+} 
+
+}

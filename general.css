@@ -1,0 +1,251 @@
+/* AJUSTES GENERALES*/
+
+@font-face {
+  font-family: "Crimson Text SemiBold";
+  src: local("Crimson Text"), url("/resources/fonts/CrimsonPro-SemiBold.ttf");
+  font-display: swap;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --yellow-font-color: #FFD233;
+    --blue-font-color: #361997;
+    --gray-font-color: #373737;
+    --heading-font-style: 'Crimson Text SemiBold', serif;
+    --text-font-style: "arial";
+    --h1-font-size: 4.8rem;
+    --h2-font-size: 3.6rem;
+    --h3-font-size: 2.4rem;
+    --h4-font-size: 1.8rem;
+    --text-font-size: 1.6rem;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--text-font-style);
+    font-size: var(--text-font-size);
+    color: var(--gray-font-color);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font-style);
+    color: var(--blue-font-color);
+    text-align: center;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+}
+
+h4 {
+    font-size: var(--h4-font-size);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--gray-font-color);
+  }
+
+li {
+    list-style: none;
+  }
+
+img:hover {
+  transform: scale(1.05,1.05);
+  transition: transform 200ms;
+}
+
+.main-button {
+    padding: 18px 20px !important;
+    border-radius: 4px;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    color: var(--gray-font-color);
+  }
+
+  .main-button:hover {
+    transform: scale(1.05,1.05);
+    transition: transform 200ms;
+    color: var(--gray-font-color);
+  }
+
+  .yellow-button {
+    background: linear-gradient(266.06deg, #FFC801 0%, #FFDA55 101.23%);
+    border: 2px solid var(--yellow-font-color);
+    color: var(--blue-font-color);
+  }
+
+  .yellow-button:hover {
+    color: var(--blue-font-color);
+  }
+
+  .hollow-yellow-button {
+      background: none;
+      border: 2px solid var(--blue-font-color);
+      color: var(--blue-font-color);
+  }
+
+  .hollow-yellow-button:hover {
+    color: var(--blue-font-color);
+  }
+  
+  .white-button {
+    background: white;
+    border: 2px solid white;
+  }
+
+  .hollow-white-button {
+    background: none;
+    border: 2px solid white;
+    color: white;
+  } 
+
+  .hollow-white-button:hover {
+    color: white;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .short-border {
+    width: 100px;
+    height: 4px;
+    background: var(--yellow-font-color);
+    margin: 10px auto;
+  }
+  
+  .heading-subtitle {
+    font-style: italic;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 1100px !important;
+  }
+
+  .navbar {
+    background: transparent !important;
+    max-width: 1100px;
+    padding-top: 12px;
+    margin: 0 auto;
+  }
+
+  .nav-link {
+    font-weight: 600 !important;
+  }
+
+  .nav-link:hover {
+    color: var(--yellow-font-color) !important;
+  }
+
+  .hero-heading, .hero-subheading {
+      padding-left: 6%;
+      padding-right: 6%;
+  }
+
+  footer {
+    padding-top: 30px;
+    background: #24252A;
+    padding-bottom: 30px;
+  }
+  
+  .footer-upper__contact p, .footer-upper__menu p {
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 2;
+  }
+  
+  .footer__list a, .footer__list li {
+    color: #83838C;
+    font-size: 1.4rem;
+    line-height: 1.7;
+  }
+  
+  .footer-bottom p {
+    color: #83838C;
+    font-size: 1.4rem;
+  }
+  
+  .footer__list {
+    padding-left: 0;
+  }
+
+  @media screen and (max-width:576px) and (min-width:0px){
+    .main-logo {
+      width: 180px;
+    }
+
+    .hero-banner__left-section h1 {
+      padding-top: 8px;
+      font-size: var(--h2-font-size);
+    }
+
+    .first-separator__row div h2 {
+      font-size: var(--h3-font-size);
+    }
+
+    .info-body {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    
+  }
+  
+  @media screen and (max-width:992px) and (min-width:577px){
+    .main-logo {
+      width: 240px;
+    }
+
+    .navbar {
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+
+    .info-body {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+  }
+  
+  @media screen and (max-width:1024px) and (min-width:992px){
+    .main-logo {
+      width: 240px;
+    }
+
+    .info-body {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+  }
+  
+  @media screen and (max-width:30000px) and (min-width:1025px){
+    .main-logo {
+      width: 240px;
+    }
+
+    .info-body {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+  }
+  
