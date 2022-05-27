@@ -129,12 +129,12 @@ header {
 }
 
 .first-separator {
-  background: url('/resources/separador1fondo.webp');
+  background: url('resources/separador1fondo.webp');
   background-position: center;
 }
 
 .second-separator {
-  background-image: url("/resources/separador2fondo.webp");
+  background-image: url("resources/separador2fondo.webp");
   background-position: center;
 }
 

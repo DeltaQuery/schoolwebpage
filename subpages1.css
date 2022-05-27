@@ -1,7 +1,7 @@
 header {
     width: 100% !important;
     background: var(--blue-font-color);
-    background-image: url("/resources/herobanner.webp");
+    background-image: url("resources/herobanner.webp");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

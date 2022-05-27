@@ -22,7 +22,7 @@ class ReviewsCarousel extends HTMLElement {
                     </p>
                 </div>
                 <div class="social-proof__info">
-                    <div class="social-proof__photo"><img src="/resources/social-proof/victorfigueredo.jpeg"
+                    <div class="social-proof__photo"><img src="resources/social-proof/victorfigueredo.jpeg"
                             alt=""></div>
                     <div class="social-proof__name">
                         <p>Victor Figueredo</p>
@@ -39,7 +39,7 @@ class ReviewsCarousel extends HTMLElement {
                     </p>
                 </div>
                 <div class="social-proof__info">
-                    <div class="social-proof__photo"><img src="/resources/social-proof/juanduran.jpeg"
+                    <div class="social-proof__photo"><img src="resources/social-proof/juanduran.jpeg"
                             alt=""></div>
                     <div class="social-proof__name">
                         <p>Juan Durán</p>
@@ -56,7 +56,7 @@ class ReviewsCarousel extends HTMLElement {
                     </p>
                 </div>
                 <div class="social-proof__info">
-                    <div class="social-proof__photo"><img src="/resources/social-proof/anamoreno.jpeg"
+                    <div class="social-proof__photo"><img src="resources/social-proof/anamoreno.jpeg"
                             alt=""></div>
                     <div class="social-proof__name">
                         <p>Ana Moreno</p>
@@ -73,7 +73,7 @@ class ReviewsCarousel extends HTMLElement {
                     </p>
                 </div>
                 <div class="social-proof__info">
-                    <div class="social-proof__photo"><img src="/resources/social-proof/giovannisanchez.jpeg"
+                    <div class="social-proof__photo"><img src="resources/social-proof/giovannisanchez.jpeg"
                             alt=""></div>
                     <div class="social-proof__name">
                         <p>Giovanni Sánchez</p>
@@ -90,7 +90,7 @@ class ReviewsCarousel extends HTMLElement {
                     </p>
                 </div>
                 <div class="social-proof__info">
-                    <div class="social-proof__photo"><img src="/resources/social-proof/susanaflores.jpeg"
+                    <div class="social-proof__photo"><img src="resources/social-proof/susanaflores.jpeg"
                             alt=""></div>
                     <div class="social-proof__name">
                         <p>Susana Flores</p>
@@ -107,7 +107,7 @@ class ReviewsCarousel extends HTMLElement {
                     </p>
                 </div>
                 <div class="social-proof__info">
-                    <div class="social-proof__photo"><img src="/resources/social-proof/patriciacubillan.jpeg"
+                    <div class="social-proof__photo"><img src="resources/social-proof/patriciacubillan.jpeg"
                             alt=""></div>
                     <div class="social-proof__name">
                         <p>Patricia Cubillán</p>
@@ -124,7 +124,7 @@ class ReviewsCarousel extends HTMLElement {
                     </p>
                 </div>
                 <div class="social-proof__info">
-                    <div class="social-proof__photo"><img src="/resources/social-proof/gabrielrodriguez.jpeg"
+                    <div class="social-proof__photo"><img src="resources/social-proof/gabrielrodriguez.jpeg"
                             alt=""></div>
                     <div class="social-proof__name">
                         <p>Gabriel Rodríguez</p>
@@ -141,7 +141,7 @@ class ReviewsCarousel extends HTMLElement {
                     </p>
                 </div>
                 <div class="social-proof__info">
-                    <div class="social-proof__photo"><img src="/resources/social-proof/simonetvillarroel.webp"
+                    <div class="social-proof__photo"><img src="resources/social-proof/simonetvillarroel.webp"
                             alt=""></div>
                     <div class="social-proof__name">
                         <p>Simonet Villarroel</p>
@@ -159,7 +159,7 @@ class ReviewsCarousel extends HTMLElement {
                     </p>
                 </div>
                 <div class="social-proof__info">
-                    <div class="social-proof__photo"><img src="/resources/social-proof/gerardorincon.webp"
+                    <div class="social-proof__photo"><img src="resources/social-proof/gerardorincon.webp"
                             alt=""></div>
                     <div class="social-proof__name">
                         <p>Gerardo Rincón</p>

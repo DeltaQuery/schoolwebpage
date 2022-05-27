@@ -8,7 +8,7 @@ class Footer extends HTMLElement {
       <footer class ="container-fluid">
       <div class ="row d-flex align-items-center justify-content-center footer-upper">
           <div class ="col-12 col-lg-4 d-flex align-items-center justify-content-center footer-upper__logo">
-              <img class="main-logo" src="/resources/logofooter.png" alt="">
+              <img class="main-logo" src="resources/logofooter.png" alt="">
           </div>
           <div class="col-12 col-lg-4 ps-5 pe-5 ps-lg-0 pe-lg-0 mt-4 mt-lg-0 d-flex flex-column footer-upper__contact">
               <p>Contacto</p>
@@ -26,19 +26,19 @@ class Footer extends HTMLElement {
                       <a href="/">INICIO</a>
                   </li>
                   <li>
-                      <a href="/quienes-somos">QUIÉNES SOMOS</a>
+                      <a href="quienes-somos.html">QUIÉNES SOMOS</a>
                   </li>
                   <li>
-                      <a href="/villamerici">VILLA MÉRICI</a>
+                      <a href="villamerici.html">VILLA MÉRICI</a>
                   </li>
                   <li>
-                      <a href="/experimental">EXPERIMENTAL MÉRICI</a>
+                      <a href="experimental.html">EXPERIMENTAL MÉRICI</a>
                   </li>
                   <li>
-                      <a href="/recursos">RECURSOS</a>
+                      <a href="recursos.html">RECURSOS</a>
                   </li>
                   <li>
-                      <a href="/contactanos">CONTÁCTANOS</a>
+                      <a href="contactanos.html">CONTÁCTANOS</a>
                   </li>
               </ul>
           </div>
