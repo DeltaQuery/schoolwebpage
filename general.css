@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Crimson Text SemiBold";
-  src: local("Crimson Text"), url("resources/fonts/CrimsonPro-SemiBold.ttf");
+  src: local("Crimson Text"), url("./resources/fonts/CrimsonPro-SemiBold.ttf");
   font-display: swap;
 }
 
